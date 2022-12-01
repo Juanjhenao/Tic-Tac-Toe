@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 500px;
+    height: 500px;
+    border: 2px black;
+    margin: 0px auto;
+    /* gap: 10px; */
+    background-color: silver;
+}
+.field{
+    width: 165px;
+    height: 165px;
+    border: 1px solid gray;
+    background-color: rgb(94, 94, 94);
+    font-size: 100px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.field:hover{
+    background-color: rgb(77, 77, 77);
+}
