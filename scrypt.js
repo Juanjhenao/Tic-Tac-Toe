@@ -1,14 +1,3 @@
-// const fieldElements = document.querySelectorAll(".field");
-//   const messageElement = document.getElementById("message");
-//   const restartButton = document.getElementById("restart-button");
-
-//   fieldElements.forEach((field) =>
-//     field.addEventListener("click", (e) => {
-//       alert("hola :v")
-//     })
-//   );
-
-
   "use strict";
 
 const Player = (sign) => {
